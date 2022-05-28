@@ -31,6 +31,7 @@ const HeaderHero = () => {
                 />
               </span>
             </h2>
+            <h3>Visit My Protfolio And Keep Your Feedback..</h3>
 
             <div className="hero_btn d_flex">
               <div className="col_1">

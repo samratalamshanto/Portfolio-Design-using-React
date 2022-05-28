@@ -1,17 +1,22 @@
 import React from "react";
-
+import "./Protfolio.css";
 const CardProtfolio = (props) => {
-  const { totallike, title } = props;
+  const { img, title, gitlink } = props;
+  console.log(gitlink);
+
   return (
     <>
-      <div className="box btn_shadow">
-        <div className="category d_flex"></div>
-
-        <div className="title">
+      <div className="btn_shadow box1">
+        <div className="img">
+          <div className="img_size">
+            <img src={img} alt="##" />
+          </div>
+        </div>
+        <div className="btn_shadow1 ">
+          <a href={gitlink}>View Project</a>
+        </div>
+        <div className="title text-center mid_text">
           <h2>{title}</h2>
-          <a href="#popup" className="arrow">
-            <i className="fas fa-arrow"></i>
-          </a>
         </div>
       </div>
     </>

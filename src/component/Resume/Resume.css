@@ -1,0 +1,29 @@
+.resume .content {
+    width: 95%;
+    margin: auto;
+    margin-left: -50px;
+}
+
+.resume .box {
+    padding: 40px;
+}
+
+.resume .heading h1 {
+    text-align: center;
+    margin-top: 30%;
+    color: #ff014f;
+    font-weight: 900;
+}
+
+.content-section {
+    height: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: white;
+}
+
+.gpa button {
+    font-weight: bold;
+    height: fit-content;
+
+}

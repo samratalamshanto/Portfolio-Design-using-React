@@ -6,7 +6,7 @@
 header {
     height: 12vh;
     line-height: 10vh;
-
+    background-color: white;
     margin-bottom: 20px;
     box-shadow: -1px 1px 10px -1px rgba(0, 0, 0, .75);
 }
@@ -46,6 +46,7 @@ header ul li a {
 
 header ul li a:hover {
     color: var(--secondary-color, #ff014f);
+
 }
 
 .home-btn {
@@ -55,6 +56,7 @@ header ul li a:hover {
     cursor: pointer;
     transition: 0.3s all ease;
     height: fit-content;
+    font-weight: bold;
 
 }
 
@@ -66,7 +68,9 @@ header ul li a:hover {
 
 .home-btn:hover {
     background-color: #ff014f;
-    color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    transform: scale(1.05);
 }
 
 .open {
@@ -78,7 +82,7 @@ header ul li a:hover {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #ecf0f3;
+    background-color: #ffffff;
     z-index: 1000;
     box-shadow: -1px 11px 20px -1px rgba(0, 0, 0, .75);
     transition: 0.5s;

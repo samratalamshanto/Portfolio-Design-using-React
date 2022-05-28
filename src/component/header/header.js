@@ -37,7 +37,7 @@ const Header = () => {
                 <a href="blog">blog</a>
               </li>
               <li>
-                <button className="home-btn">BUY NOW</button>
+                <button className="home-btn">Contact</button>
               </li>
             </ul>
             <button className="toogle" onClick={() => setmobile(!mobile)}>

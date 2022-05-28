@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Protfolio.css";
+
 import dataProtfolio from "./ProtfolioData";
 import CardProtfolio from "./CardProtfolio";
 
@@ -7,10 +9,10 @@ const Protfolio = () => {
   return (
     <>
       <section className="protfolio top" id="protfolio">
-        <div className="container">
+        <div className="container portfolio_container">
           <div className="heading text-center">
-            <h3> Visit My Protfolio And Keep Your Feedback..</h3>
-            <h1>My Protfolio</h1>
+            <h3> What I Do..</h3>
+            <h1>Academic Project</h1>
           </div>
 
           <div className="content grid">
@@ -18,8 +20,9 @@ const Protfolio = () => {
               return (
                 <CardProtfolio
                   key={index}
+                  img={val.image}
                   title={val.title}
-                  totallike={val.totalLike}
+                  gitlink={val.gitLink}
                 />
               );
             })}
