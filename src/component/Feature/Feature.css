@@ -1,0 +1,28 @@
+.feature .box {
+    padding: 50px;
+}
+
+.feature .box h2 {
+    margin: 20px 0;
+}
+
+.feature .box p {
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+
+.feature .box i {
+    font-size: 30px;
+    margin-top: 30px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.feature .box:hover i {
+    opacity: 1;
+
+}
+
+.feature .box:hover p {
+    color: black
+}

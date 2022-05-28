@@ -1,0 +1,149 @@
+:root {
+    --primary-color: green;
+    --secondary-color: #ff014f;
+}
+
+header {
+    height: 12vh;
+    line-height: 10vh;
+
+    margin-bottom: 20px;
+    box-shadow: -1px 1px 10px -1px rgba(0, 0, 0, .75);
+}
+
+header .container {
+    /* padding-top: 10px; */
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 20%;
+    height: 70px;
+}
+
+.logo h2 {
+    margin-top: 8px;
+    font-family: "sans-serif";
+    font-weight: bolder;
+}
+
+header ul li {
+    margin-left: 30px;
+}
+
+header ul li a {
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+header ul li a:hover {
+    color: var(--secondary-color, #ff014f);
+}
+
+.home-btn {
+    padding: 18px 25px;
+    border-radius: 6px;
+    color: #ff014f;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    height: fit-content;
+
+}
+
+.home-btn {
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+
+}
+
+.home-btn:hover {
+    background-color: #ff014f;
+    color: #ffffff;
+}
+
+.open {
+    display: none;
+}
+
+.header.active {
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ecf0f3;
+    z-index: 1000;
+    box-shadow: -1px 11px 20px -1px rgba(0, 0, 0, .75);
+    transition: 0.5s;
+}
+
+
+
+@media (max-width:768px) {
+    header ul {
+        padding-top: 30px;
+    }
+
+    .nav-links-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: white;
+        z-index: 888;
+        box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.23), rgba(0, 0, 0, .3) 0 30px 60px -30px;
+    }
+
+    header ul li {
+        width: 100%;
+        transition: 0.5s;
+        text-transform: uppercase;
+        line-height: 70px;
+    }
+
+    header .link {
+        display: none;
+    }
+
+
+    .open,
+    .close {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        color: var(--secondary-color);
+        display: block;
+        font-size: 25px;
+        z-index: 999;
+
+    }
+
+    .close {
+        right: 45%;
+    }
+
+
+
+    .close.home-btn {
+        color: #ff014f;
+        border-radius: 50%;
+        padding: 0;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .header.active {
+        height: 10vh;
+    }
+}
