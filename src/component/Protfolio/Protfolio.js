@@ -17,6 +17,8 @@ const Protfolio = () => {
 
           <div className="content grid contnet_protfolio">
             {dataProtfolio.map((val, index) => {
+              // console.log(index);
+              // console.log(val.image);
               return (
                 <CardProtfolio
                   key={index}

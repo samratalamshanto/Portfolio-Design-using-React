@@ -15,7 +15,7 @@ const App = () => {
       <HeaderHero />
       <Resume />
       <Protfolio />
-      <Feature />
+      {/* <Feature /> */}
       <div className="div_hello"></div>
     </div>
   );

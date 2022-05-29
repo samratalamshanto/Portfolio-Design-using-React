@@ -17,7 +17,6 @@ header .container {
 
 .logo {
     display: flex;
-
 }
 
 .logo img {
@@ -28,9 +27,11 @@ header .container {
 }
 
 .logo h2 {
-    margin-top: 8px;
+    margin-top: 15px;
     font-family: "sans-serif";
     font-weight: bolder;
+    letter-spacing: 2px;
+
 }
 
 header ul li {
@@ -50,13 +51,15 @@ header ul li a:hover {
 }
 
 .home-btn {
-    padding: 18px 25px;
+    padding: 15px 25px;
     border-radius: 6px;
-    color: #ff014f;
+    color: black;
+    font-weight: bolder;
     cursor: pointer;
     transition: 0.3s all ease;
     height: fit-content;
-    font-weight: bold;
+
+
 
 }
 
@@ -69,7 +72,7 @@ header ul li a:hover {
 .home-btn:hover {
     background-color: #ff014f;
     color: #000000;
-    font-weight: bold;
+    font-weight: bolder;
     transform: scale(1.05);
 }
 

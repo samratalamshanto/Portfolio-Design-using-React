@@ -13,7 +13,7 @@ const CardProtfolio = (props) => {
       <div className="btn_shadow box1">
         <div className="img">
           <div className="img_size">
-            <img src={img} alt="##" />
+            <img src={img} alt="" />
           </div>
         </div>
         <div className="btn_shadow1 ">

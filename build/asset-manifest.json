@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e28d73fd.css",
-    "main.js": "/static/js/main.91742ab4.js",
+    "main.css": "/static/css/main.1a4a12b5.css",
+    "main.js": "/static/js/main.e049c770.js",
     "static/js/787.e8c6061e.chunk.js": "/static/js/787.e8c6061e.chunk.js",
     "static/media/hero.png": "/static/media/hero.7c01590b5a3c6a0aea79.png",
+    "static/media/absa.png": "/static/media/absa.dc788de39673e530dbf7.png",
+    "static/media/thesis.jpg": "/static/media/thesis.8051a834e3dddc08a814.jpg",
+    "static/media/opengl sohid mina.jpg": "/static/media/opengl sohid mina.6407b5b5b4f2a1e3d38e.jpg",
+    "static/media/webdesign.jpg": "/static/media/webdesign.a54ec5e383315d3393e4.jpg",
+    "static/media/twiteer sentiment analysis.jpeg": "/static/media/twiteer sentiment analysis.a43abe46fa44d9cfa9c2.jpeg",
+    "static/media/text categorization.png": "/static/media/text categorization.7db85d6eb4252fe66ef7.png",
     "static/media/logo.png": "/static/media/logo.1b90ebaa1399cbc5b5d4.png",
     "index.html": "/index.html",
-    "main.e28d73fd.css.map": "/static/css/main.e28d73fd.css.map",
-    "main.91742ab4.js.map": "/static/js/main.91742ab4.js.map",
+    "main.1a4a12b5.css.map": "/static/css/main.1a4a12b5.css.map",
+    "main.e049c770.js.map": "/static/js/main.e049c770.js.map",
     "787.e8c6061e.chunk.js.map": "/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e28d73fd.css",
-    "static/js/main.91742ab4.js"
+    "static/css/main.1a4a12b5.css",
+    "static/js/main.e049c770.js"
   ]
 }

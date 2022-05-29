@@ -52,6 +52,15 @@ const HeaderHero = () => {
                     <i className="fab fa-github"></i>
                   </a>
                 </button>
+                {/* <button className="btn_shadow">
+                  <a href="https://www.instagram.com/samratshanto/?hl=en">
+                    {" "}
+                    <i
+                      class="fab fa-researchgate"
+                      style={{ fontSize: "17px" }}
+                    ></i>
+                  </a>
+                </button> */}
                 <button className="btn_shadow">
                   <a href="https://www.instagram.com/samratshanto/?hl=en">
                     {" "}
