@@ -8,7 +8,7 @@ const HeaderHero = () => {
   return (
     <>
       <section className="hero" id="home">
-        <div className="container f_flex top">
+        <div className="container f_flex top hero_container">
           <div className="left top">
             <h3>Welcome to my world...</h3>
             <h1>
@@ -31,7 +31,8 @@ const HeaderHero = () => {
                 />
               </span>
             </h2>
-            <h3>Visit My Protfolio And Keep Your Feedback..</h3>
+
+            <p>Visit My Protfolio And Keep Your Feedback..</p>
 
             <div className="hero_btn d_flex">
               <div className="col_1">

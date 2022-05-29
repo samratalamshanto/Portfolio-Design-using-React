@@ -1,8 +1,12 @@
 import React from "react";
 import "./Protfolio.css";
+// import img1 from "./images/absa.png";
+
 const CardProtfolio = (props) => {
   const { img, title, gitlink } = props;
-  console.log(gitlink);
+  // const img2 = import("./images/absa.png");
+  // console.log(img1);
+  // console.log(img2);
 
   return (
     <>
@@ -13,7 +17,9 @@ const CardProtfolio = (props) => {
           </div>
         </div>
         <div className="btn_shadow1 ">
-          <a href={gitlink}>View Project</a>
+          <a href={gitlink}>
+            <i className="fab fa-github"> View Project </i>
+          </a>
         </div>
         <div className="title text-center mid_text">
           <h2>{title}</h2>

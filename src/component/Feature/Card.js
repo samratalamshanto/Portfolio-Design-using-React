@@ -2,7 +2,6 @@ import React from "react";
 
 const Card = (props) => {
   const { title, descriotion, img } = props;
-  console.log(props);
   return (
     <>
       <div className="box btn_shadow">

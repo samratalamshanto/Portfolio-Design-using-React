@@ -15,7 +15,7 @@ const Protfolio = () => {
             <h1>Academic Project</h1>
           </div>
 
-          <div className="content grid">
+          <div className="content grid contnet_protfolio">
             {dataProtfolio.map((val, index) => {
               return (
                 <CardProtfolio

@@ -1,10 +1,16 @@
 const Portfolio_data = [
+  // {
+  //   id: 1,
+  //   title: "Vaccine Tweet Data Sentiment Analysis",
+  //   image: "./images/twiteer sentiment analysis.jpeg",
+  //   gitLink:
+  //     "https://github.com/samratalamshanto/sentiment-analysis-on-vaccine-tweet-data",
+  // },
   {
     id: 1,
     title: "Vaccine Tweet Data Sentiment Analysis",
     image: require("./images/twiteer sentiment analysis.jpeg"),
-    gitLink:
-      "https://github.com/samratalamshanto/sentiment-analysis-on-vaccine-tweet-data",
+    gitLink: require("https://github.com/samratalamshanto/sentiment-analysis-on-vaccine-tweet-data"),
   },
   {
     id: 2,
