@@ -10,7 +10,8 @@ const Protfolio = () => {
     <>
       <section className="protfolio top" id="protfolio">
         <div className="container portfolio_container">
-          <div className="heading text-center">
+          <div className="heading text-center heading_protfolio">
+            <br />
             <h3> What I Do..</h3>
             <h1>Academic Project</h1>
           </div>

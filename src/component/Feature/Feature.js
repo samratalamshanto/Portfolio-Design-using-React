@@ -4,14 +4,16 @@ import Card from "./Card";
 import data from "./FeaturesApi";
 import "./Feature.css";
 
+import img_skills from "../../pic/png/skills.png";
+
 const Feature = () => {
   return (
     <>
       <section className="feature top" id="feature">
-        <div className="container">
-          <div className="heading">
-            <h3>Projects:</h3>
-            <h1>What I Do</h1>
+        <div className="container feature_box">
+          <div className="heading text-center feature_container">
+            <img src={img_skills} alt="" />
+            <h1>Skills</h1>
           </div>
 
           <div className="content grid">

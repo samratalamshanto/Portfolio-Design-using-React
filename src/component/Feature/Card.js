@@ -6,11 +6,8 @@ const Card = (props) => {
     <>
       <div className="box btn_shadow">
         <img src={img} alt="" />
-        <h2>Title:{title}</h2>
+        <h2>{title}</h2>
         <p>{descriotion}</p>
-        <a href="">
-          <i className="fas fa-arrow-right"></i>
-        </a>
       </div>
     </>
   );

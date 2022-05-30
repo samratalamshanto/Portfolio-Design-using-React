@@ -8,7 +8,7 @@
 
 /*  #dcf2ed; */
 .box1:hover {
-    background-color: #b0f0e1;
+    background-color: #ff014f;
 }
 
 .img_size img {
@@ -69,8 +69,10 @@
 .contnet_protfolio {
     width: 95%;
     margin-left: 30px;
-    margin-top: -10px;
+    margin-top: 0px;
 }
+
+
 
 .box1 {
     margin-bottom: 30px;

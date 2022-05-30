@@ -1,0 +1,70 @@
+.moreprojects .content {
+    width: 95%;
+    margin: auto;
+    margin-left: -220px;
+    margin-top: -40px;
+    height: fit-content;
+}
+
+.moreprojects .moreProjects_box {
+    height: 700px;
+}
+
+.moreprojects .box {
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+
+.moreprojects .heading h1 {
+    text-align: center;
+    margin-top: 15%;
+    margin-right: 40%;
+    color: #ff014f;
+    font-weight: 900;
+}
+
+.content-section {
+    height: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: white;
+    height: fit-content;
+}
+
+.gpa button {
+    font-weight: bold;
+    height: fit-content;
+
+}
+
+.content .box .title_content .title h3 {
+    height: fit-content;
+}
+
+
+.btn_shadow2 {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn_shadow2 {
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+
+}
+
+.btn_shadow2:hover {
+    background: #ff014f;
+    color: white;
+    transform: translateY(-10px);
+
+}
+
+.btn_shadow2:hover a {
+    text-decoration: none;
+
+}

@@ -5,6 +5,7 @@ import HeaderHero from "./component/Hero/Header.hero";
 import Resume from "../src/component/Resume/Resume";
 import Protfolio from "../src/component/Protfolio/Protfolio";
 import Feature from "./component/Feature/Feature";
+import MoreProjects from "../src/component/MoreProjects/MoreProjects";
 
 import "./App.css";
 
@@ -15,7 +16,8 @@ const App = () => {
       <HeaderHero />
       <Resume />
       <Protfolio />
-      {/* <Feature /> */}
+      <MoreProjects />
+      <Feature />
       <div className="div_hello"></div>
     </div>
   );
