@@ -6,6 +6,8 @@ import Resume from "../src/component/Resume/Resume";
 import Protfolio from "../src/component/Protfolio/Protfolio";
 import Feature from "./component/Feature/Feature";
 import MoreProjects from "../src/component/MoreProjects/MoreProjects";
+import Publications from "../src/component/Publications/Publications";
+import Footer from "../src/component/Footer/Footer";
 
 import "./App.css";
 
@@ -18,7 +20,9 @@ const App = () => {
       <Protfolio />
       <MoreProjects />
       <Feature />
+      <Publications />
       <div className="div_hello"></div>
+      <Footer />
     </div>
   );
 };

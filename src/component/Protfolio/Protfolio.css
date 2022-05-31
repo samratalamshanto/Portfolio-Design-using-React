@@ -43,7 +43,7 @@
     transition: 0.5s;
     text-align: center;
     background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 8px 8px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
     font-size: large;
     font-weight: 500;
 

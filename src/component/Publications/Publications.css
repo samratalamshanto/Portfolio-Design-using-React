@@ -1,0 +1,72 @@
+.research .content {
+    width: 95%;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: -40px;
+
+}
+
+.research .research_box {
+    /* height: 700px; */
+}
+
+.research .box {
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+
+.research .heading h1 {
+    text-align: center;
+    margin-top: 65%;
+    margin-right: 60%;
+    color: #ff014f;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.content-section {
+    height: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: white;
+    height: fit-content;
+}
+
+.gpa button {
+    font-weight: bold;
+    height: fit-content;
+
+}
+
+.content .box .title_content .title h3 {
+    height: fit-content;
+}
+
+
+.btn_shadow3 {
+    padding: 18px 25px;
+    border-radius: 8px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+    margin-top: 0px;
+}
+
+.btn_shadow3 {
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+
+}
+
+.btn_shadow3:hover {
+    background: #ff014f;
+    color: white;
+    transform: translateY(-10px);
+
+}
+
+.btn_shadow3:hover a {
+    text-decoration: none;
+
+}

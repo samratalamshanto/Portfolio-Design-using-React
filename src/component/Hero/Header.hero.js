@@ -1,6 +1,8 @@
 import React from "react";
+
 import "./Header.hero.css";
 import "../../App.css";
+
 import hero from "../../pic/png/hero.png";
 import { Typewriter } from "react-simple-typewriter";
 

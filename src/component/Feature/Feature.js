@@ -3,6 +3,7 @@ import React from "react";
 import Card from "./Card";
 import data from "./FeaturesApi";
 import "./Feature.css";
+import "../../App.css";
 
 import img_skills from "../../pic/png/skills.png";
 
@@ -16,7 +17,7 @@ const Feature = () => {
             <h1>Skills</h1>
           </div>
 
-          <div className="content grid">
+          <div className="content grid content_feature">
             {data.map((val, index) => {
               return (
                 <Card
