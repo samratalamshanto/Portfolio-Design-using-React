@@ -8,6 +8,7 @@ import Feature from "./component/Feature/Feature";
 import MoreProjects from "../src/component/MoreProjects/MoreProjects";
 import Publications from "../src/component/Publications/Publications";
 import Footer from "../src/component/Footer/Footer";
+import EmailBox from "../src/component/EmailBox/EmailBox";
 
 import "./App.css";
 
@@ -21,7 +22,7 @@ const App = () => {
       <MoreProjects />
       <Feature />
       <Publications />
-      <div className="div_hello"></div>
+      <EmailBox />
       <Footer />
     </div>
   );

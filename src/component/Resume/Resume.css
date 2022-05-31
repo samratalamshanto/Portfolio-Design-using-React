@@ -8,9 +8,18 @@
     padding: 40px;
 }
 
+.resume .heading img {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+
+}
+
 .resume .heading h1 {
     text-align: center;
-    margin-top: 22%;
+    margin-top: 0%;
     color: #ff014f;
     font-weight: 900;
     margin-right: 40px;

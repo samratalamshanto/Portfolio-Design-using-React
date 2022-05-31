@@ -5,6 +5,9 @@ import "./Protfolio.css";
 import dataProtfolio from "./ProtfolioData";
 import CardProtfolio from "./CardProtfolio";
 
+const project =
+  "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-projects-social-media-agency-flaticons-lineal-color-flat-icons-2.png";
+
 const Protfolio = () => {
   return (
     <>
@@ -13,7 +16,10 @@ const Protfolio = () => {
           <div className="heading text-center heading_protfolio">
             <br />
             <h3> What I Do..</h3>
-            <h1>Academic Project</h1>
+            <div className="flex_portfolio">
+              <img src={project} alt="" />
+              <h1>Academic Project</h1>
+            </div>
           </div>
 
           <div className="content grid contnet_protfolio">

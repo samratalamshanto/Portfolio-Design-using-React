@@ -1,9 +1,9 @@
-import img1 from "./images/twiteer sentiment analysis.jpeg";
-import img2 from "./images/text categorization.png";
+import img1 from "./images/twiteer_sentiment_analysis.png";
+import img2 from "./images/text_categorization.png";
 import img3 from "./images/absa.png";
-import img4 from "./images/webdesign.jpg";
+import img4 from "./images/webdesign.png";
 import img5 from "./images/thesis.jpg";
-import img6 from "./images/opengl sohid mina.jpg";
+import img6 from "./images/opengl_sohid_mina.png";
 
 const Portfolio_data = [
   {
@@ -29,15 +29,14 @@ const Portfolio_data = [
   },
   {
     id: 4,
-    title: "Personal Website Design",
+    title: "Personal Business Website Design",
     image: img4,
     gitLink:
       "https://github.com/samratalamshanto/businesswebsite_quickly.github.io",
   },
   {
     id: 5,
-    title:
-      "Thesis: Tolerating soft error in Ternary content addressable memory",
+    title: "Tolerating soft error in Ternary Content Addressable Memory(TCAM)",
     image: img5,
     gitLink: "https://github.com/samratalamshanto/CSE4000-Thesis_Work",
   },

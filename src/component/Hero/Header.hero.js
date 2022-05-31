@@ -40,17 +40,29 @@ const HeaderHero = () => {
               <div className="col_1">
                 <h4>Find With Me:</h4>
                 <button className="btn_shadow">
-                  <a href="https://www.facebook.com/profile.php?id=100003190767005">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100003190767005"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-facebook"></i>
                   </a>
                 </button>
                 <button className="btn_shadow">
-                  <a href="https://www.linkedin.com/in/samrat-alam-8392b5167/">
+                  <a
+                    href="https://www.linkedin.com/in/samrat-alam-8392b5167/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </button>
                 <button className="btn_shadow">
-                  <a href="https://github.com/samratalamshanto">
+                  <a
+                    href="https://github.com/samratalamshanto"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-github"></i>
                   </a>
                 </button>
@@ -64,7 +76,11 @@ const HeaderHero = () => {
                   </a>
                 </button> */}
                 <button className="btn_shadow">
-                  <a href="https://www.instagram.com/samratshanto/?hl=en">
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://www.instagram.com/samratshanto/?hl=en"
+                  >
                     {" "}
                     <i className="fab fa-instagram"></i>
                   </a>

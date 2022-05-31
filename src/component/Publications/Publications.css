@@ -6,8 +6,11 @@
 
 }
 
-.research .research_box {
-    /* height: 700px; */
+.research .research_box .heading img {
+    height: 120px;
+    width: 130px;
+    margin-top: 55%;
+    margin-left: 25%;
 }
 
 .research .box {
@@ -17,7 +20,7 @@
 
 .research .heading h1 {
     text-align: center;
-    margin-top: 65%;
+    margin-top: 0%;
     margin-right: 60%;
     color: #ff014f;
     font-weight: 900;

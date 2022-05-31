@@ -17,7 +17,9 @@ const CardMoreProjects = (props) => {
             </div>
             <div className="gpa">
               <button className="btn_shadow3">
-                <a href={link}>Read</a>
+                <a href={link} target={"_blank"} rel="noreferrer">
+                  Read..
+                </a>
               </button>
             </div>
           </div>

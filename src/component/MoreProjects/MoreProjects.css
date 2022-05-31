@@ -15,9 +15,16 @@
     margin-bottom: 0;
 }
 
+.moreprojects .heading img {
+    width: 90px;
+    height: 90px;
+    margin-top: 8%;
+    margin-left: 18%;
+}
+
 .moreprojects .heading h1 {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 0%;
     margin-right: 40%;
     color: #ff014f;
     font-weight: 900;

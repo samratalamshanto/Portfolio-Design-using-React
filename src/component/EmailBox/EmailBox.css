@@ -1,0 +1,80 @@
+.email_box {
+    height: 540px;
+    margin: 50px;
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.email_box_heading {
+    display: flex;
+}
+
+.email_box_heading img {
+    margin-right: 10px;
+}
+
+.emailbox h1 {
+    font-size: 40px;
+    color: #ff014f;
+    letter-spacing: 2px;
+    padding: 2px;
+}
+
+.mail_form {
+    padding: 10px;
+    height: 400px;
+    width: 100%;
+    background-color: #d7dcdf;
+    border-radius: 8px;
+
+
+}
+
+input,
+textarea {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+    width: 90%;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+input:hover {
+    border: 2px solid #000;
+}
+
+textarea:hover {
+    border: 2px solid #000;
+
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.msg_div textarea {
+    height: 100px;
+}
+
+.btn_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+.btn_div button {
+    border: 2px solid black;
+}

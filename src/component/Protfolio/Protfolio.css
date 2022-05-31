@@ -28,7 +28,16 @@
     color: black;
 }
 
+.flex_portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.flex_portfolio img {
+    width: 80px;
+    height: 70px;
+}
 
 .btn_shadow1 {
     margin-top: 10px;
@@ -86,4 +95,14 @@
 
     font-size: 25px;
     letter-spacing: 2px;
+}
+
+.mid_text {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+
+
 }

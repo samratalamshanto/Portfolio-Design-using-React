@@ -1,7 +1,7 @@
 import React from "react";
 
 const CardMoreProjects = (props) => {
-  const { title } = props;
+  const { title, link } = props;
   return (
     <>
       <section>
@@ -12,7 +12,9 @@ const CardMoreProjects = (props) => {
             </div>
             <div className="gpa">
               <button className="btn_shadow2">
-                <i className="fab fa-github"></i> View
+                <a href={link} target={"_blank"} rel="noreferrer">
+                  <i className="fab fa-github"></i>{" "}
+                </a>
               </button>
             </div>
           </div>

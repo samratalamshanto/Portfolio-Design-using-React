@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a4a12b5.css",
-    "main.js": "/static/js/main.e049c770.js",
-    "static/js/787.e8c6061e.chunk.js": "/static/js/787.e8c6061e.chunk.js",
+    "main.css": "/static/css/main.de89d913.css",
+    "main.js": "/static/js/main.b1679089.js",
+    "static/js/787.b8d45f03.chunk.js": "/static/js/787.b8d45f03.chunk.js",
     "static/media/hero.png": "/static/media/hero.7c01590b5a3c6a0aea79.png",
-    "static/media/absa.png": "/static/media/absa.dc788de39673e530dbf7.png",
-    "static/media/thesis.jpg": "/static/media/thesis.8051a834e3dddc08a814.jpg",
-    "static/media/opengl sohid mina.jpg": "/static/media/opengl sohid mina.6407b5b5b4f2a1e3d38e.jpg",
-    "static/media/webdesign.jpg": "/static/media/webdesign.a54ec5e383315d3393e4.jpg",
-    "static/media/twiteer sentiment analysis.jpeg": "/static/media/twiteer sentiment analysis.a43abe46fa44d9cfa9c2.jpeg",
-    "static/media/text categorization.png": "/static/media/text categorization.7db85d6eb4252fe66ef7.png",
+    "static/media/webdesign.png": "/static/media/webdesign.620da05f636a82cd166c.png",
+    "static/media/twiteer_sentiment_analysis.png": "/static/media/twiteer_sentiment_analysis.60af06a568d7a2ebf6d9.png",
+    "static/media/absa.png": "/static/media/absa.906a91d3fb916671063b.png",
+    "static/media/thesis.jpg": "/static/media/thesis.13279758c5008ea689f8.jpg",
+    "static/media/text_categorization.png": "/static/media/text_categorization.67467cbbc1402aabb956.png",
+    "static/media/opengl_sohid_mina.png": "/static/media/opengl_sohid_mina.bda3835e22f24322a1ff.png",
     "static/media/logo.png": "/static/media/logo.1b90ebaa1399cbc5b5d4.png",
+    "static/media/skills.png": "/static/media/skills.bc51bad8b09743360237.png",
     "index.html": "/index.html",
-    "main.1a4a12b5.css.map": "/static/css/main.1a4a12b5.css.map",
-    "main.e049c770.js.map": "/static/js/main.e049c770.js.map",
-    "787.e8c6061e.chunk.js.map": "/static/js/787.e8c6061e.chunk.js.map"
+    "main.de89d913.css.map": "/static/css/main.de89d913.css.map",
+    "main.b1679089.js.map": "/static/js/main.b1679089.js.map",
+    "787.b8d45f03.chunk.js.map": "/static/js/787.b8d45f03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a4a12b5.css",
-    "static/js/main.e049c770.js"
+    "static/css/main.de89d913.css",
+    "static/js/main.b1679089.js"
   ]
 }

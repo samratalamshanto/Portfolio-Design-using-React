@@ -17,12 +17,12 @@ const CardProtfolio = (props) => {
           </div>
         </div>
         <div className="btn_shadow1 ">
-          <a href={gitlink}>
+          <a href={gitlink} target={"_blank"} rel="noreferrer">
             <i className="fab fa-github"> View Project </i>
           </a>
         </div>
-        <div className="title text-center mid_text">
-          <h2>{title}</h2>
+        <div className="title mid_text">
+          <h4>{title}</h4>
         </div>
       </div>
     </>
