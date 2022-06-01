@@ -24,6 +24,10 @@ const App = () => {
       <Publications />
       <EmailBox />
       <Footer />
+      {/* <div>
+        <h1>helooooooooo</h1>
+        <i className="fab fa-facebook">here</i>
+      </div> */}
     </div>
   );
 };

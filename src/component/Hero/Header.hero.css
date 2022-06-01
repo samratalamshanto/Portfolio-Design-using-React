@@ -91,3 +91,41 @@ p {
     font-size: large;
 
 }
+
+@media (max-width:768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #ff014f;
+    }
+
+    .hero_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero .hero_container .left {
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .hero .hero_container .right_img {
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 310px;
+        margin-top: 10px;
+
+    }
+
+    .right.top img {
+        height: 600px;
+        margin-left: -30%;
+        width: 445px;
+        margin-top: -8%;
+    }
+}

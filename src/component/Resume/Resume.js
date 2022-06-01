@@ -7,11 +7,12 @@ import "../../App.css";
 
 const education =
   "https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/64/000000/external-education-translation-and-language-xnimrodx-lineal-color-xnimrodx.png";
+
 const Resume = () => {
   return (
     <>
       <section className="resume" id="resume">
-        <div className="content-section mtop d_flex">
+        <div className="content-section mtop d_flex resume_div">
           <div className="heading">
             <img src={education} alt="" />
             <h1>Education Quality</h1>

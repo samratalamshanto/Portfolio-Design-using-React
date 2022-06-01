@@ -37,3 +37,49 @@
     height: fit-content;
 
 }
+
+@media (max-width:768px) {
+    .resume .resume_div {
+        width: 432px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content .box_shadow .title_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .content .box_shadow .title_content .title h2 {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    .content .box_shadow .title_content .title span {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 25px;
+
+    }
+
+    .content .box_shadow .title_content .title {
+        margin-bottom: 20px;
+    }
+
+    .content .box_shadow .title_content .gpa {
+
+        margin-bottom: 5px;
+    }
+
+    .content {
+        margin-left: 6%;
+        margin-right: 0;
+
+    }
+}

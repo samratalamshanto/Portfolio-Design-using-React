@@ -118,3 +118,12 @@ p {
 .text-center {
   text-align: center;
 }
+
+@media (max-width:768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+
+  }
+}

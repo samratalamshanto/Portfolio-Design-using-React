@@ -98,6 +98,18 @@ header ul li a:hover {
         padding-top: 30px;
     }
 
+    .logo img {
+        height: 50px;
+    }
+
+    .logo h2 {
+        margin-top: 5px;
+        font-family: "sans-serif";
+        font-weight: bolder;
+        letter-spacing: 2px;
+
+    }
+
     .nav-links-mobile {
         position: absolute;
         display: block;

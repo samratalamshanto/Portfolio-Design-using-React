@@ -106,3 +106,37 @@
 
 
 }
+
+@media (max-width:768px) {
+    .img_size img {
+        height: 220px;
+        width: 280px;
+        margin: 5px;
+        margin-left: 12px;
+    }
+
+    .protfolio .portfolio_container .heading h3 {
+        margin-left: 25px;
+
+    }
+
+    .protfolio .portfolio_container .heading .flex_portfolio h1 {
+        font-size: 45px;
+        margin-left: -25px;
+    }
+
+    .flex_portfolio img {
+        width: 80px;
+        height: 70px;
+        margin-top: -18px;
+        margin-left: 10px;
+    }
+
+    .protfolio .portfolio_container .contnet_protfolio {
+        margin: 0;
+        margin-left: 6px;
+    }
+
+
+
+}

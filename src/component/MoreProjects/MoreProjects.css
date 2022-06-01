@@ -75,3 +75,30 @@
     text-decoration: none;
 
 }
+
+@media (max-width:768px) {
+    .moreprojects .moreProjects_box {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .moreprojects .moreProjects_box .heading {
+        margin-top: 0;
+        margin-left: 25%;
+    }
+
+    .moreprojects .moreProjects_box .heading h1 {
+        font-size: 35px;
+    }
+
+    .moreprojects .moreProjects_box .content {
+        margin: 0;
+        margin-top: -10%;
+        margin: auto;
+    }
+
+    .moreprojects .moreProjects_box .content .box .title_content .gpa button {
+        margin-bottom: 5px;
+    }
+}

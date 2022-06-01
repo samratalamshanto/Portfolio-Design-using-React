@@ -73,3 +73,22 @@
     text-decoration: none;
 
 }
+
+@media (max-width:768px) {
+    .research .research_box {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .research .research_box .heading {
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+    }
+
+    .research .research_box .heading img {
+        margin-top: 0;
+    }
+}

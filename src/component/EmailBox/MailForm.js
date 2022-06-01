@@ -44,7 +44,7 @@ const MailForm = () => {
           <div className="email_div">
             <label htmlFor="">Email: </label>
             <input
-              type="text"
+              type="email"
               placeholder="email"
               name="email"
               id="email"
