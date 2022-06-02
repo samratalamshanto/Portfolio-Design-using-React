@@ -9,6 +9,7 @@ header {
     background-color: white;
     margin-bottom: 20px;
     box-shadow: -1px 1px 10px -1px rgba(0, 0, 0, .75);
+    width: 100%;
 }
 
 header .container {
@@ -84,16 +85,29 @@ header ul li a:hover {
     height: 12vh;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 96%;
     background-color: #ffffff;
     z-index: 1000;
     box-shadow: -1px 11px 20px -1px rgba(0, 0, 0, .75);
     transition: 0.5s;
+    margin: 0;
 }
 
 
 
 @media (max-width:768px) {
+    .header.active {
+        height: 12vh;
+        position: fixed;
+        top: 0;
+        width: 96%;
+        background-color: #ffffff;
+        z-index: 1000;
+        box-shadow: -1px 11px 20px -1px rgba(0, 0, 0, .75);
+        transition: 0.5s;
+        margin: 0;
+    }
+
     header ul {
         padding-top: 30px;
     }
