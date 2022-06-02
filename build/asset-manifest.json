@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.de89d913.css",
-    "main.js": "/static/js/main.699769d0.js",
-    "static/js/787.b8d45f03.chunk.js": "/static/js/787.b8d45f03.chunk.js",
-    "static/media/hero.png": "/static/media/hero.7c01590b5a3c6a0aea79.png",
+    "main.css": "/static/css/main.6e9563ed.css",
+    "main.js": "/static/js/main.d67a32da.js",
+    "static/media/hero.png": "/static/media/hero.a1f6829901923c609c8e.png",
     "static/media/webdesign.png": "/static/media/webdesign.620da05f636a82cd166c.png",
     "static/media/twiteer_sentiment_analysis.png": "/static/media/twiteer_sentiment_analysis.60af06a568d7a2ebf6d9.png",
     "static/media/absa.png": "/static/media/absa.906a91d3fb916671063b.png",
     "static/media/thesis.jpg": "/static/media/thesis.13279758c5008ea689f8.jpg",
     "static/media/text_categorization.png": "/static/media/text_categorization.67467cbbc1402aabb956.png",
     "static/media/opengl_sohid_mina.png": "/static/media/opengl_sohid_mina.bda3835e22f24322a1ff.png",
-    "static/media/logo.png": "/static/media/logo.1b90ebaa1399cbc5b5d4.png",
+    "static/media/logo.png": "/static/media/logo.988b70be7b08ba18257b.png",
     "static/media/skills.png": "/static/media/skills.bc51bad8b09743360237.png",
     "index.html": "/index.html",
-    "main.de89d913.css.map": "/static/css/main.de89d913.css.map",
-    "main.699769d0.js.map": "/static/js/main.699769d0.js.map",
-    "787.b8d45f03.chunk.js.map": "/static/js/787.b8d45f03.chunk.js.map"
+    "main.6e9563ed.css.map": "/static/css/main.6e9563ed.css.map",
+    "main.d67a32da.js.map": "/static/js/main.d67a32da.js.map"
   },
   "entrypoints": [
-    "static/css/main.de89d913.css",
-    "static/js/main.699769d0.js"
+    "static/css/main.6e9563ed.css",
+    "static/js/main.d67a32da.js"
   ]
 }

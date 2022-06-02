@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import "./header.css";
 import logo from "../../pic/png/logo.png";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBlindsOpen } from "@fortawesome/free-solid-svg-icons";
+const open = <FontAwesomeIcon icon="fa-solid fa-blinds-open" />;
+
 const Header = () => {
   //when scroll header part always at top
   window.addEventListener("scroll", function () {
@@ -25,19 +29,22 @@ const Header = () => {
               onClick={() => setmobile(false)}
             >
               <li>
-                <a href="home">home</a>
+                <a href="#home">home</a>
               </li>
               <li>
-                <a href="portfolio">portfolio</a>
+                <a href="#resume">education</a>
               </li>
               <li>
-                <a href="contact">contact</a>
+                <a href="#protfolio">portfolio</a>
               </li>
               <li>
-                <a href="blog">blog</a>
+                <a href="#research">research</a>
               </li>
+
               <li>
-                <button className="home-btn">Contact</button>
+                <button className="home-btn">
+                  <a href="#emailbox">Contact</a>
+                </button>
               </li>
             </ul>
             <button className="toogle" onClick={() => setmobile(!mobile)}>
@@ -50,7 +57,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <section className="demo"></section>
     </>
   );
 };

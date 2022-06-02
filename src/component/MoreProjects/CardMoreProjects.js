@@ -1,5 +1,10 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+const github = <FontAwesomeIcon icon={faGithub} />;
+
 const CardMoreProjects = (props) => {
   const { title, link } = props;
   return (
@@ -13,7 +18,7 @@ const CardMoreProjects = (props) => {
             <div className="gpa">
               <button className="btn_shadow2">
                 <a href={link} target={"_blank"} rel="noreferrer">
-                  <i className="fab fa-github"></i>{" "}
+                  {github}
                 </a>
               </button>
             </div>

@@ -3,6 +3,19 @@ import React from "react";
 import "../../App.css";
 import "./Footer.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+
+const facebook = <FontAwesomeIcon icon={faFacebook} />;
+const github = <FontAwesomeIcon icon={faGithub} />;
+const linkedin = <FontAwesomeIcon icon={faLinkedinIn} />;
+const gmail = <FontAwesomeIcon icon={faEnvelopeOpen} />;
+
 const Footer = () => {
   return (
     <>
@@ -12,10 +25,8 @@ const Footer = () => {
             <div className="content_footer d_flex">
               <div>
                 <h2>Samrat Alam</h2>
-                <h3>
-                  <i className="fas fa-envelope"></i>
-                  samratalamshanto710@gmail.com
-                </h3>
+
+                <h3>{gmail} Email: samratalamshanto710@gmail.com</h3>
               </div>
 
               <div className="content">
@@ -28,7 +39,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i className="fab fa-facebook"></i>
+                    {facebook}
                   </a>
                 </button>
                 <button className="btn_shadow_footer">
@@ -37,7 +48,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i className="fab fa-linkedin-in"></i>
+                    {linkedin}
                   </a>
                 </button>
                 <button className="btn_shadow_footer">
@@ -46,7 +57,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i className="fab fa-github"></i>
+                    {github}
                   </a>
                 </button>
               </div>

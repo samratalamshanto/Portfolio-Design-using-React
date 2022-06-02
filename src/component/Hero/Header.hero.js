@@ -6,6 +6,19 @@ import "../../App.css";
 import hero from "../../pic/png/hero.png";
 import { Typewriter } from "react-simple-typewriter";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedinIn,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
+const facebook = <FontAwesomeIcon icon={faFacebook} />;
+const github = <FontAwesomeIcon icon={faGithub} />;
+const linkedin = <FontAwesomeIcon icon={faLinkedinIn} />;
+const insta = <FontAwesomeIcon icon={faInstagram} />;
+
 const HeaderHero = () => {
   return (
     <>
@@ -33,9 +46,7 @@ const HeaderHero = () => {
                 />
               </span>
             </h2>
-
             <p>Visit My Portfolio And Keep Your Feedback..</p>
-
             <div className="hero_btn d_flex">
               <div className="col_1">
                 <h4>Find With Me:</h4>
@@ -45,7 +56,7 @@ const HeaderHero = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i className="fab fa-facebook"></i>
+                    {facebook}
                   </a>
                 </button>
                 <button className="btn_shadow">
@@ -54,7 +65,7 @@ const HeaderHero = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i className="fab fa-linkedin-in"></i>
+                    {linkedin}
                   </a>
                 </button>
                 <button className="btn_shadow">
@@ -63,7 +74,7 @@ const HeaderHero = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i className="fab fa-github"></i>
+                    {github}
                   </a>
                 </button>
                 {/* <button className="btn_shadow">
@@ -82,7 +93,7 @@ const HeaderHero = () => {
                     href="https://www.instagram.com/samratshanto/?hl=en"
                   >
                     {" "}
-                    <i className="fab fa-instagram"></i>
+                    {insta}
                   </a>
                 </button>
               </div>
