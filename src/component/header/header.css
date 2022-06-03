@@ -22,13 +22,13 @@ header .container {
 
 .logo img {
     margin-top: 0px;
-    margin-bottom: 2px;
+    margin-bottom: 5%;
     margin-left: 20%;
-    height: 70px;
+    height: 50%;
 }
 
 .logo h2 {
-    margin-top: 15px;
+    margin-top: 5%;
     font-family: "sans-serif";
     font-weight: bolder;
     letter-spacing: 2px;
@@ -85,7 +85,7 @@ header ul li a:hover {
     height: 12vh;
     position: fixed;
     top: 0;
-    width: 96%;
+    width: 100%;
     background-color: #ffffff;
     z-index: 1000;
     box-shadow: -1px 11px 20px -1px rgba(0, 0, 0, .75);
@@ -100,7 +100,7 @@ header ul li a:hover {
         height: 12vh;
         position: fixed;
         top: 0;
-        width: 96%;
+        width: 100%;
         background-color: #ffffff;
         z-index: 1000;
         box-shadow: -1px 11px 20px -1px rgba(0, 0, 0, .75);
@@ -130,8 +130,8 @@ header ul li a:hover {
         list-style: none;
         left: 0;
         top: 0;
-        width: 60%;
-        height: 100vh;
+        width: 50%;
+        height: 130vh;
         background-color: white;
         z-index: 888;
         box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.23), rgba(0, 0, 0, .3) 0 30px 60px -30px;
@@ -152,17 +152,23 @@ header ul li a:hover {
     .open,
     .close {
         position: absolute;
-        top: 35px;
+        top: 3%;
         right: 20px;
         color: var(--secondary-color);
         display: block;
         font-size: 25px;
         z-index: 999;
 
+
+
+    }
+
+    .active .open {
+        top: 20%;
     }
 
     .close {
-        right: 45%;
+        right: 55%;
     }
 
 

@@ -92,4 +92,9 @@
     .footer .footer_container .content_footer .content .btn_shadow_footer {
         margin-top: -5px;
     }
+
+    .content_footer h3 {
+        font-size: 15px;
+        text-align: none;
+    }
 }

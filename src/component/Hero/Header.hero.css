@@ -1,7 +1,6 @@
 .hero {
     position: relative;
 
-
 }
 
 .hero_container {
@@ -12,7 +11,7 @@
 .hero h3 {
     font-weight: 150;
     letter-spacing: 3px;
-    margin-top: 90px;
+    margin-top: 15%;
 }
 
 .hero h1 {
@@ -54,7 +53,7 @@
 
 
 .hero .left {
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 .hero .right {
@@ -68,10 +67,10 @@
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
     border-radius: 10px;
-    height: 580px;
+    height: 96%;
     width: 330px;
     margin-top: 20%;
-    margin-left: 90px;
+    margin-left: 100%;
     margin-bottom: 20%;
 }
 
@@ -85,7 +84,7 @@
 
 p {
     letter-spacing: 2px;
-    margin-top: 25px;
+    margin-top: 5%;
     color: black;
     font-weight: 400;
     font-size: large;
@@ -109,23 +108,23 @@ p {
     }
 
     .hero .hero_container .left {
-        margin-left: 40px;
-        margin-bottom: 10px;
+        margin-left: 8%;
+        margin-bottom: 5%;
     }
 
     .hero .hero_container .right_img {
         margin: 0;
-        margin-left: 40px;
-        margin-top: 10px;
+        margin-left: 148%;
+        margin-top: 2%;
         width: 310px;
-        margin-top: 10px;
+        margin-top: 2%;
 
     }
 
     .right.top img {
-        height: 600px;
+        height: 480px;
         margin-left: -30%;
-        width: 445px;
+        width: 435px;
         margin-top: -8%;
     }
 }

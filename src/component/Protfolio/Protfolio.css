@@ -2,20 +2,26 @@
     background-color: #ecf0f3;
     margin-top: -10px;
 
+
 }
 
 
 
-/*  #dcf2ed; */
+/* //#ecf0f3; */
+/*  #dcf2ed;  */
 .box1:hover {
     background-color: #ff014f;
+}
+
+.protfolio .portfolio_container .contnet_protfolio .box1 .img .img_size {
+    margin-left: 10%;
 }
 
 .img_size img {
     height: 220px;
     width: 300px;
     margin: 5px;
-    margin-left: 12px;
+    margin-left: 0px;
 }
 
 .img_size img:hover {

@@ -11,7 +11,7 @@ const Feature = () => {
   return (
     <>
       <section className="feature top" id="feature">
-        <div className="container feature_box">
+        <div className="feature_box">
           <div className="heading text-center feature_container">
             <img src={img_skills} alt="" />
             <h1>Skills</h1>

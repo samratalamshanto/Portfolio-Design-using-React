@@ -39,11 +39,31 @@
 }
 
 @media (max-width:768px) {
+    .content-section {
+        height: 600px;
+        margin-top: 50px;
+        padding: 0px;
+        background-color: red;
+    }
+
+    .resume .content {
+        width: 100%;
+        margin: auto;
+        margin-left: 0px;
+    }
+
     .resume .resume_div {
-        width: 432px;
+        width: 100%;
         /* background-color: aqua; */
         display: flex;
         flex-direction: column;
+    }
+
+    .resume .resume_div.content {
+        margin: 0;
+        width: 100%;
+        margin-left: 50px;
+        background-color: red;
     }
 
     .content .box_shadow .title_content {
@@ -69,12 +89,12 @@
     }
 
     .content .box_shadow .title_content .title {
-        margin-bottom: 20px;
+        margin-bottom: 8%;
     }
 
     .content .box_shadow .title_content .gpa {
 
-        margin-bottom: 5px;
+        margin-bottom: 5%;
     }
 
     .content {

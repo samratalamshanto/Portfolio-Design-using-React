@@ -1,7 +1,7 @@
 .email_box {
     height: 540px;
-    margin: 50px;
-    width: 100%;
+    margin: 5%;
+    width: 95%;
     background-color: white;
     margin-left: 10px;
     margin-right: 0px;
@@ -10,6 +10,8 @@
     align-items: center;
 
 }
+
+.mail_form_div {}
 
 .email_box_heading {
     display: flex;

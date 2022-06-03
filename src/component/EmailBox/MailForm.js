@@ -1,4 +1,16 @@
 import React, { useState } from "react";
+import axios from "axios";
+import {
+  AxiosProvider,
+  Request,
+  Get,
+  Delete,
+  Head,
+  Post,
+  Put,
+  Patch,
+  withAxios,
+} from "react-axios";
 
 const MailForm = () => {
   const [user, setUser] = useState({
@@ -7,20 +19,25 @@ const MailForm = () => {
     msg: "",
   });
   const { name, email, msg } = user;
-  const onHandleForm = (e) => {
-    console.log(user);
-    console.log("submitted");
-    e.preventDefault();
-    setUser({
-      name: "",
-      email: "",
-      msg: "",
-    });
-  };
+
   const onChangeValue = (e) => {
     setUser({
       ...user,
       [e.target.name]: e.target.value,
+    });
+  };
+
+  const onHandleForm = (e) => {
+    e.preventDefault();
+    console.log(user);
+    console.log("submitted");
+    alert(`Hello ${name}!! Your Msg is Sent!! Thank You.`);
+    axios.post("http://localhost:5000/create", user);
+
+    setUser({
+      name: "",
+      email: "",
+      msg: "",
     });
   };
 
