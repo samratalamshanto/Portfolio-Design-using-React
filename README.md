@@ -1,3 +1,3 @@
 # Portfolio Design
-## Deploy Link - https://bucolic-hummingbird-f88835.netlify.app/
+## Deploy Link - https://thriving-blancmange-7a9ed1.netlify.app
  
