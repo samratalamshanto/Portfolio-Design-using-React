@@ -32,7 +32,24 @@ const MailForm = () => {
     console.log(user);
     console.log("submitted");
     alert(`Hello ${name}!! Your Msg is Sent!! Thank You.`);
-    axios.post("http://localhost:5000/create", user);
+
+    //axios
+    let axiosConfig = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
+      body: JSON.stringify(user),
+    };
+    axios
+      .post("http://localhost:5000/create", user, axiosConfig)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log("error>>>>>>>>>>>> ", err);
+      });
 
     setUser({
       name: "",
