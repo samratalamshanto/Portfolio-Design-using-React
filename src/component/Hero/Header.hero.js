@@ -4,7 +4,7 @@ import "./Header.hero.css";
 import "../../App.css";
 
 import hero from "../../pic/png/hero.png";
-import { Typewriter } from "react-simple-typewriter";
+import { Typewriter, useTypewriter } from "react-simple-typewriter";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -20,6 +20,14 @@ const linkedin = <FontAwesomeIcon icon={faLinkedinIn} />;
 const insta = <FontAwesomeIcon icon={faInstagram} />;
 
 const HeaderHero = () => {
+  const { text } = useTypewriter({
+    words: [" Developer", " Learner", " Coder", " Self Believer"],
+    loop: 0,
+    typeSpeed: 70,
+    deleteSpeed: 70,
+    delaySpeed: 1000,
+  });
+
   return (
     <>
       <section className="hero" id="home">
@@ -32,18 +40,8 @@ const HeaderHero = () => {
             <h2>
               a{" "}
               <span>
-                Self Believer | Developer | <br /> Coder | Learner.
-              </span>
-              <span>
-                <Typewriter
-                  words={[""]}
-                  loop={5}
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                />
+                {text}
+                <span className="cursor">|</span>
               </span>
             </h2>
             <p>Visit My Portfolio And Keep Your Feedback..</p>

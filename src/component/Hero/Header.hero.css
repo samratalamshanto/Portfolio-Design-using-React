@@ -91,6 +91,11 @@ p {
 
 }
 
+
+.cursor {
+    animation: blink 1s linear infinite forwards;
+}
+
 @media (max-width:768px) {
     .hero h1 {
         font-size: 30px;
