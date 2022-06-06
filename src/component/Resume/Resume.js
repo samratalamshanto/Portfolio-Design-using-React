@@ -12,7 +12,7 @@ const Resume = () => {
   return (
     <>
       <section className="resume" id="resume">
-        <div className="content-section mtop d_flex resume_div">
+        <div className="content-section d_flex resume_div">
           <div className="heading">
             <img src={education} alt="" />
             <h1>Education Quality</h1>

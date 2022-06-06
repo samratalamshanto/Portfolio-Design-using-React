@@ -1,7 +1,12 @@
+.resume .resume_div {
+    height: fit-content;
+}
+
 .resume .content {
     width: 95%;
     margin: auto;
     margin-left: -50px;
+
 }
 
 .resume .box {
@@ -39,11 +44,22 @@
 }
 
 @media (max-width:768px) {
-    .content-section {
-        height: 600px;
-        margin-top: 50px;
+    .resume {
+        height: fit-content;
+    }
+
+    .resume .content-section {
+        height: fit-content;
+        margin-top: 5px;
         padding: 0px;
-        background-color: red;
+
+    }
+
+    .resume .heading h1 {
+        font-size: 35px;
+        margin-top: 0%;
+
+        margin-right: 0px;
     }
 
     .resume .content {
@@ -66,7 +82,12 @@
         background-color: red;
     }
 
+    .resume .resume_div .content .box {
+        padding: 3px;
+    }
+
     .content .box_shadow .title_content {
+        padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -78,10 +99,12 @@
         width: 100%;
         margin-right: 0px;
         margin-bottom: 5px;
+        font-size: 15px;
 
     }
 
     .content .box_shadow .title_content .title span {
+        font-size: 13px;
         width: 100%;
         margin-right: 0px;
         margin-bottom: 25px;
@@ -93,7 +116,7 @@
     }
 
     .content .box_shadow .title_content .gpa {
-
+        font-size: 12px;
         margin-bottom: 5%;
     }
 

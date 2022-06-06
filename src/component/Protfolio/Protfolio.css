@@ -21,7 +21,7 @@
     height: 220px;
     width: 300px;
     margin: 5px;
-    margin-left: 0px;
+    margin-left: -20px;
 }
 
 .img_size img:hover {
@@ -115,10 +115,17 @@
 
 @media (max-width:768px) {
     .img_size img {
-        height: 220px;
-        width: 280px;
-        margin: 5px;
-        margin-left: 12px;
+        height: 120px;
+        width: 180px;
+        margin: 0px;
+        margin-left: -2px;
+        margin-top: 2px;
+    }
+
+    .protfolio .portfolio_container .heading .flex_portfolio {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
     }
 
     .protfolio .portfolio_container .heading h3 {
@@ -127,8 +134,8 @@
     }
 
     .protfolio .portfolio_container .heading .flex_portfolio h1 {
-        font-size: 45px;
-        margin-left: -25px;
+        font-size: 35px;
+        margin-left: 10px;
     }
 
     .flex_portfolio img {
@@ -143,6 +150,25 @@
         margin-left: 6px;
     }
 
+    .btn_shadow1 {
+        margin-top: 10px;
+        margin-left: 15%;
+        padding-top: 2px;
+        height: 40px;
+        width: 150px;
+
+    }
+
+    .contnet_protfolio {
+        width: 95%;
+        margin-left: 0px;
+
+
+    }
+
+    .box1 {
+        padding: 1px;
+    }
 
 
 }

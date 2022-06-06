@@ -80,3 +80,40 @@ label {
 .btn_div button {
     border: 2px solid black;
 }
+
+@media (max-width:768px) {
+    .email_box {
+        height: fit-content;
+        margin: 5%;
+        width: 95%;
+        margin-left: 5px;
+        margin-right: 0px;
+
+
+    }
+
+    .email_box_heading img {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+
+    .emailbox h1 {
+        font-size: 25px;
+        font-weight: bolder;
+        color: #ff014f;
+        letter-spacing: 2px;
+        padding: 0px;
+    }
+
+    .email_box .container_email {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+
+
+    }
+
+
+
+
+}

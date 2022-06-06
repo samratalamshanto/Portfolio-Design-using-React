@@ -78,6 +78,9 @@
         margin: 0;
         margin-top: 0px;
         height: fit-content;
+        width: 100%;
+
+
     }
 
     .footer .footer_container .content_footer h2 {
@@ -93,8 +96,32 @@
         margin-top: -5px;
     }
 
+    .content_footer h2 {
+        font-size: 24px;
+        margin-top: 15px;
+        color: aqua;
+
+    }
+
+
+    .content h2 {
+
+        font-size: 18px;
+    }
+
     .content_footer h3 {
-        font-size: 15px;
+        margin-left: -22px;
+        font-size: 12px;
         text-align: none;
+
+
+    }
+
+    .footer_bottom hr {
+        margin-bottom: 5px;
+    }
+
+    .footer_bottom {
+        font-size: 12px;
     }
 }

@@ -10,7 +10,7 @@ const EmailBox = () => {
   return (
     <>
       <section className="emailbox" id="emailbox">
-        <div className="container">
+        <div className=" container_email">
           <div className="email_box">
             <br />
             <div className="text-center email_box_heading">

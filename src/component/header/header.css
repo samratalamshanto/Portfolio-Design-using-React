@@ -1,5 +1,5 @@
 :root {
-    --primary-color: green;
+    --primary-color: white;
     --secondary-color: #ff014f;
 }
 
@@ -116,11 +116,19 @@ header ul li a:hover {
         height: 50px;
     }
 
+    .logo img {
+        margin-top: 0px;
+        margin-bottom: 5%;
+        margin-left: 0%;
+
+    }
+
     .logo h2 {
         margin-top: 5px;
         font-family: "sans-serif";
         font-weight: bolder;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+        font-size: 13px;
 
     }
 

@@ -12,7 +12,7 @@ const Publications = () => {
   return (
     <>
       <section className="research" id="research">
-        <div className="content-section mtop d_flex research_box">
+        <div className="content-section d_flex research_box">
           <div className="heading">
             <img src={research} alt="" />
             <h1>Research</h1>

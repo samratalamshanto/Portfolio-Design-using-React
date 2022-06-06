@@ -66,6 +66,7 @@ const Footer = () => {
             <div class="footer_bottom text-center">
               <hr />
               Copyright 2022 @samrat alam
+              <br />
             </div>
           </div>
         </div>

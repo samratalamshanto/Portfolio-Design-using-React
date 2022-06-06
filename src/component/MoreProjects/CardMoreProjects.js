@@ -24,6 +24,7 @@ const CardMoreProjects = (props) => {
             </div>
           </div>
           <hr />
+          <br />
         </div>
       </section>
     </>

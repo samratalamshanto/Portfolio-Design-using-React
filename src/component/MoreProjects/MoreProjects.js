@@ -12,7 +12,7 @@ const Resume = () => {
   return (
     <>
       <section className="moreprojects" id="moreprojects">
-        <div className="content-section mtop d_flex moreProjects_box">
+        <div className="content-sectio d_flex moreProjects_box">
           <div className="heading">
             <img src={projects} alt="" />
             <h1>More Academic Projects</h1>

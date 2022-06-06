@@ -95,7 +95,7 @@ const MailForm = () => {
               id="msg"
               cols="30"
               rows="10"
-              placeholder="Write some notes.."
+              placeholder="Write message here.."
               value={msg}
               onChange={onChangeValue}
               required
