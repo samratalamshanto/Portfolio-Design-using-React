@@ -9,6 +9,7 @@ import MoreProjects from "../src/component/MoreProjects/MoreProjects";
 import Publications from "../src/component/Publications/Publications";
 import Footer from "../src/component/Footer/Footer";
 import EmailBox from "../src/component/EmailBox/EmailBox";
+import MomentPicSlide from "./component/MomentsPicSlide/MomentPicSlide";
 
 import "./App.css";
 
@@ -22,7 +23,9 @@ const App = () => {
       <MoreProjects />
       <Feature />
       <Publications />
+      <MomentPicSlide />
       <EmailBox />
+
       <Footer />
       {/* <div>
         <h1>helooooooooo</h1>

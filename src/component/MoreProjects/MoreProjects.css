@@ -22,11 +22,18 @@
 
 }
 
+.moreprojects .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .moreprojects .heading img {
     width: 90px;
     height: 90px;
-    margin-top: 8%;
-    margin-left: 18%;
+    margin-top: -20%;
+    margin-left: -40%;
 }
 
 .moreprojects .heading h1 {
@@ -103,6 +110,13 @@
 
     .moreprojects .moreProjects_box .heading img {
         margin-left: -1px;
+
+
+
+        margin-top: 8%;
+        margin-left: -55%;
+
+
     }
 
     .moreprojects .moreProjects_box .heading h1 {

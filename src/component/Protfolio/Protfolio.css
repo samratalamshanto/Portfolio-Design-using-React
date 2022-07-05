@@ -8,9 +8,20 @@
 
 
 /* //#ecf0f3; */
+.btn_shadow1:hover {
+
+    transform: translateY(-10px);
+}
+
 /*  #dcf2ed;  */
+
 .box1:hover {
     background-color: #ff014f;
+
+}
+
+.box1 .btn_shadow1:hover {
+    background: white;
 }
 
 .protfolio .portfolio_container .contnet_protfolio .box1 .img .img_size {
@@ -64,11 +75,7 @@
 
 }
 
-.btn_shadow1:hover {
-    color: #50dad3;
-    background: white;
-    transform: translateY(-10px);
-}
+
 
 .btn_shadow1 a:hover {
     text-decoration: none;
@@ -118,8 +125,8 @@
         height: 120px;
         width: 180px;
         margin: 0px;
-        margin-left: -2px;
-        margin-top: 2px;
+        margin-left: 13%;
+        margin-top: 2%;
     }
 
     .protfolio .portfolio_container .heading .flex_portfolio {
@@ -142,7 +149,7 @@
         width: 80px;
         height: 70px;
         margin-top: -18px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     .protfolio .portfolio_container .contnet_protfolio {
@@ -152,8 +159,8 @@
 
     .btn_shadow1 {
         margin-top: 10px;
-        margin-left: 15%;
-        padding-top: 2px;
+        margin-left: 26%;
+        padding-top: 1%;
         height: 40px;
         width: 150px;
 
@@ -167,7 +174,11 @@
     }
 
     .box1 {
-        padding: 1px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        padding: 2px;
     }
 
 

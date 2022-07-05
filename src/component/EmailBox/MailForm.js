@@ -1,16 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import {
-  AxiosProvider,
-  Request,
-  Get,
-  Delete,
-  Head,
-  Post,
-  Put,
-  Patch,
-  withAxios,
-} from "react-axios";
 
 const MailForm = () => {
   const [user, setUser] = useState({
@@ -29,9 +18,10 @@ const MailForm = () => {
 
   const onHandleForm = (e) => {
     e.preventDefault();
-    console.log(user);
     console.log("submitted");
-    alert(`Hello ${name}!! Your Msg is Sent!! Thank You.`);
+    alert(
+      `Hello ${name}!! Your Msg is Sent!! Thank You. I will contact you shortly…`
+    );
 
     //axios
     let axiosConfig = {
@@ -43,7 +33,7 @@ const MailForm = () => {
       body: JSON.stringify(user),
     };
     axios
-      .post("http://localhost:5000/create", user, axiosConfig)
+      .post("https://samrat-alam.herokuapp.com/create", user, axiosConfig) // "https://localhost:5000/create"
       .then((res) => {
         console.log(res);
       })
@@ -88,7 +78,7 @@ const MailForm = () => {
             />
           </div>
           <div className="msg_div">
-            <label htmlFor="">Message:</label>
+            <label htmlFor="">Message: </label>
 
             <textarea
               name="msg"

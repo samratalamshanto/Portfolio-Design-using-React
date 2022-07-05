@@ -1,9 +1,9 @@
 .email_box {
     height: 540px;
     margin: 5%;
-    width: 95%;
+    width: 100%;
     background-color: white;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 0px;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@ label {
 
     .email_box_heading img {
         margin-right: 0px;
-        margin-left: 20px;
+        margin-left: 10%;
     }
 
     .emailbox h1 {

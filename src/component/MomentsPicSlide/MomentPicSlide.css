@@ -1,0 +1,108 @@
+.moment_pic {
+    margin: 5%;
+    width: 92%;
+    margin-right: 5%;
+}
+
+.moment_pic .swiper_div {
+    height: 10px;
+    width: auto;
+    align-items: center;
+    margin-left: 0;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.life_event {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: #ff014f;
+}
+
+.life_event h1 {
+    font-size: 40px;
+    color: #ff014f;
+    letter-spacing: 1px;
+    padding: 2px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: fit-content;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.swiper-slide h1 {
+    color: black;
+    font-weight: bolder;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+@media (max-width:768px) {
+    .moment_pic {}
+
+    .swiper-slide h1 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .life_event img {
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+
+    .life_event h1 {
+        font-size: 25px;
+        color: #ff014f;
+        letter-spacing: 0px;
+        padding: 0px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 95%;
+        height: 240px;
+
+        margin-bottom: 10px;
+    }
+
+}

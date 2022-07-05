@@ -83,6 +83,11 @@
 
     }
 
+    .footer_header_top {
+        display: flex;
+        flex-direction: column;
+    }
+
     .footer .footer_container .content_footer h2 {
         margin: 0;
     }
@@ -110,9 +115,9 @@
     }
 
     .content_footer h3 {
-        margin-left: -22px;
+        margin-left: 0px;
         font-size: 12px;
-        text-align: none;
+        text-align: left;
 
 
     }

@@ -1,13 +1,13 @@
 import React from "react";
 
 const Card = (props) => {
-  const { title, descriotion, img } = props;
+  const { title, description, img } = props;
   return (
     <>
       <div className=" btn_shadow content_feature_box">
         <img src={img} alt="" />
         <h2>{title}</h2>
-        <p>{descriotion}</p>
+        <p>{description}</p>
       </div>
     </>
   );

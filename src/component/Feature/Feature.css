@@ -119,12 +119,12 @@
     }
 
     .feature .feature_box .content_feature_box {
-        width: 205px;
+
         margin-left: 5px;
     }
 
     .feature .feature_box .content_feature_box img {
-        margin-left: 15%;
+        margin-left: 35%;
     }
 
     .feature_container {
@@ -148,11 +148,13 @@
     }
 
     .content_feature .content_feature_box h2 {
-
+        text-align: center;
+        margin: 0;
         font-size: 18px;
     }
 
     .content_feature .content_feature_box p {
+        text-align: center;
         font-size: 15px;
     }
 }

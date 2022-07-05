@@ -3,7 +3,7 @@
     --secondary-color: #ff014f;
 }
 
-header {
+.header {
     height: 12vh;
     line-height: 10vh;
     background-color: white;
@@ -12,9 +12,7 @@ header {
     width: 100%;
 }
 
-header .container {
-    /* padding-top: 10px; */
-}
+.header .container {}
 
 .logo {
     display: flex;
@@ -30,7 +28,7 @@ header .container {
 .logo h2 {
     margin-top: 5%;
     font-family: "sans-serif";
-    font-weight: bolder;
+    font-weight: 4000;
     letter-spacing: 2px;
 
 }
@@ -112,23 +110,31 @@ header ul li a:hover {
         padding-top: 30px;
     }
 
+    .logo {
+        height: 100%;
+    }
+
+    .container {
+        height: inherit;
+    }
+
     .logo img {
-        height: 50px;
+        height: 95%;
     }
 
     .logo img {
         margin-top: 0px;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
         margin-left: 0%;
 
     }
 
     .logo h2 {
-        margin-top: 5px;
+        margin-top: 5%;
         font-family: "sans-serif";
         font-weight: bolder;
         letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 15px;
 
     }
 

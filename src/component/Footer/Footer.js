@@ -23,7 +23,7 @@ const Footer = () => {
         <div className=" f_flex">
           <div className="footer_container">
             <div className="content_footer d_flex">
-              <div>
+              <div className="footer_header_top">
                 <h2>Samrat Alam</h2>
 
                 <h3>{gmail} Email: samratalamshanto710@gmail.com</h3>

@@ -29,10 +29,9 @@ const Portfolio_data = [
   },
   {
     id: 4,
-    title: "Personal Business Website Design",
+    title: "Personal Website Design",
     image: img4,
-    gitLink:
-      "https://github.com/samratalamshanto/businesswebsite_quickly.github.io",
+    gitLink: "https://github.com/samratalamshanto/Portfolio-Design-using-React",
   },
   {
     id: 5,
