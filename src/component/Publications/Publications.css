@@ -1,3 +1,7 @@
+.research {
+    margin-top: -1%;
+}
+
 .research .content {
     width: 95%;
     margin: auto;
@@ -75,6 +79,11 @@
 }
 
 @media (max-width:768px) {
+    .research {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
     .research .research_box {
         display: flex;
         flex-direction: column;

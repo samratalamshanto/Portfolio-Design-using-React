@@ -1,7 +1,8 @@
 .moment_pic {
-    margin: 5%;
+    margin: 4%;
     width: 92%;
     margin-right: 5%;
+
 }
 
 .moment_pic .swiper_div {
@@ -77,7 +78,9 @@
 }
 
 @media (max-width:768px) {
-    .moment_pic {}
+    .moment_pic {
+        margin-bottom: 0%;
+    }
 
     .swiper-slide h1 {
         font-size: 20px;

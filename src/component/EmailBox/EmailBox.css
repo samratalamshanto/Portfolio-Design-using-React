@@ -1,6 +1,6 @@
 .email_box {
     height: 540px;
-    margin: 5%;
+    margin: 4%;
     width: 100%;
     background-color: white;
     margin-left: 0px;
@@ -84,12 +84,8 @@ label {
 @media (max-width:768px) {
     .email_box {
         height: fit-content;
-        margin: 5%;
-        width: 95%;
-        margin-left: 5px;
-        margin-right: 0px;
-
-
+        width: 100%;
+        margin-top: 5%
     }
 
     .email_box_heading img {
@@ -105,15 +101,13 @@ label {
         padding: 0px;
     }
 
-    .email_box .container_email {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
 
 
+    .mail_form {
+        width: 90%;
+        margin: 5%;
+        margin-top: -5%;
     }
-
-
 
 
 }

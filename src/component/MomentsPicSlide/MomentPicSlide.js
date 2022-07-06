@@ -105,7 +105,7 @@ const desc_lst = [
   "Farewell From HACK, KUET, 2022",
   "Last Class of College, 2016",
   "Inter Department Football Tournament, 2017",
-  "Inter Department Football Tournament Runner-Up, 2017",
+  "Inter Department Football Tournament, 2017",
   "Inter Department Football Tournament, 2017",
   "Inter Hall Football Tournament, 2019",
 ];

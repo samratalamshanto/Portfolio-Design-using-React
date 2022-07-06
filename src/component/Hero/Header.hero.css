@@ -1,5 +1,8 @@
 .hero {
     position: relative;
+    margin-top: 4%;
+    margin-left: 1.5%;
+
 
 }
 
@@ -100,6 +103,13 @@ p {
 }
 
 @media (max-width:768px) {
+    .hero {
+        margin: 2%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+
+    }
+
     .hero h1 {
         font-size: 25px;
     }

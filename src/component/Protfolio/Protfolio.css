@@ -1,11 +1,11 @@
 .box1 {
     background-color: #ecf0f3;
     margin-top: -10px;
-
-
 }
 
-
+.protfolio {
+    margin-left: 1%;
+}
 
 /* //#ecf0f3; */
 .btn_shadow1:hover {
@@ -121,6 +121,12 @@
 }
 
 @media (max-width:768px) {
+    .protfolio {
+        margin: 2%;
+        margin-top: -6%;
+        margin-bottom: -3%;
+    }
+
     .img_size img {
         height: 120px;
         width: 180px;
