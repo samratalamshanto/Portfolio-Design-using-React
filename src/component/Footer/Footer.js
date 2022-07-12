@@ -4,17 +4,22 @@ import "../../App.css";
 import "./Footer.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faGithub,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelopeOpen,
+  faPaperPlane,
+} from "@fortawesome/free-solid-svg-icons";
 
 const facebook = <FontAwesomeIcon icon={faFacebook} />;
 const github = <FontAwesomeIcon icon={faGithub} />;
 const linkedin = <FontAwesomeIcon icon={faLinkedinIn} />;
-const gmail = <FontAwesomeIcon icon={faEnvelopeOpen} />;
+const gmail = <FontAwesomeIcon icon={faPaperPlane} />;
+const phone = <FontAwesomeIcon icon={faPhone} />;
 
 const Footer = () => {
   return (
@@ -26,7 +31,10 @@ const Footer = () => {
               <div className="footer_header_top">
                 <h2>Samrat Alam</h2>
 
-                <h3>{gmail} Email: samratalamshanto710@gmail.com</h3>
+                <a href="mailto:samratalamshanto710@gmail.com">
+                  {" "}
+                  <h3> {gmail} To Send Email Click Here !</h3>
+                </a>
               </div>
 
               <div className="content">
@@ -53,11 +61,11 @@ const Footer = () => {
                 </button>
                 <button className="btn_shadow_footer">
                   <a
-                    href="https://github.com/samratalamshanto"
                     target={"_blank"}
                     rel="noreferrer"
+                    href="tel:+8801674937832"
                   >
-                    {github}
+                    {phone}
                   </a>
                 </button>
               </div>

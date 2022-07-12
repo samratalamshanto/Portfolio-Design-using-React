@@ -86,7 +86,7 @@ const HeaderHero = () => {
                     ></i>
                   </a>
                 </button> */}
-                <button className="btn_shadow">
+                {/* <button className="btn_shadow">
                   <a
                     target={"_blank"}
                     rel="noreferrer"
@@ -94,12 +94,12 @@ const HeaderHero = () => {
                   >
                     {insta}
                   </a>
-                </button>
+                </button> */}
                 <button className="btn_shadow">
                   <a
                     target={"_blank"}
                     rel="noreferrer"
-                    href="tel:+88016074937832"
+                    href="tel:+8801674937832"
                   >
                     {phone}
                   </a>
