@@ -7,6 +7,7 @@ import hero from "../../pic/png/hero.png";
 import { Typewriter, useTypewriter } from "react-simple-typewriter";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faGithub,
@@ -18,6 +19,7 @@ const facebook = <FontAwesomeIcon icon={faFacebook} />;
 const github = <FontAwesomeIcon icon={faGithub} />;
 const linkedin = <FontAwesomeIcon icon={faLinkedinIn} />;
 const insta = <FontAwesomeIcon icon={faInstagram} />;
+const phone = <FontAwesomeIcon icon={faPhone} />;
 
 const HeaderHero = () => {
   const { text } = useTypewriter({
@@ -44,7 +46,7 @@ const HeaderHero = () => {
                 <span className="cursor">|</span>
               </span>
             </h2>
-            <p>Visit My Portfolio And Keep Your Feedback..</p>
+            <p>Visit My Portfolio And Send Me Your Feedback..</p>
             <div className="hero_btn d_flex">
               <div className="col_1">
                 <h4>Find With Me:</h4>
@@ -90,8 +92,16 @@ const HeaderHero = () => {
                     rel="noreferrer"
                     href="https://www.instagram.com/samratshanto/?hl=en"
                   >
-                    {" "}
                     {insta}
+                  </a>
+                </button>
+                <button className="btn_shadow">
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="tel:+88016074937832"
+                  >
+                    {phone}
                   </a>
                 </button>
               </div>

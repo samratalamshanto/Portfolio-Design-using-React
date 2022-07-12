@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelopeCircleCheck,
+  faEnvelopeOpenText,
+  faEnvelope,
+  faPaperPlane,
+} from "@fortawesome/free-solid-svg-icons";
+const msgSend = <FontAwesomeIcon icon={faEnvelope} />;
+
 const MailForm = () => {
   const [user, setUser] = useState({
     name: "",
@@ -38,7 +47,7 @@ const MailForm = () => {
         console.log(res);
       })
       .catch((err) => {
-        console.log("error>>>>>>>>>>>> ", err);
+        console.log("error>>>>>> ", err);
       });
 
     setUser({
@@ -93,7 +102,11 @@ const MailForm = () => {
           </div>
           <div className="btn_div">
             <button className="btn_shadow" type="submit">
-              <h3>Send</h3>
+              <span>
+                <h3>
+                  Send<span> {msgSend}</span>
+                </h3>
+              </span>
             </button>
           </div>
         </form>
