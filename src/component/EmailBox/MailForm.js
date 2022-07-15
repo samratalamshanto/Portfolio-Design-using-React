@@ -29,7 +29,7 @@ const MailForm = () => {
     e.preventDefault();
     console.log("submitted");
     alert(
-      `Hello ${name}!! Your Msg is Sent!! Thank You. I will contact you shortly…`
+      `Hello ${name}!! Your Msg is Sent!! Thank You. I will contact with you shortly.`
     );
 
     //axios
@@ -78,7 +78,7 @@ const MailForm = () => {
             <label htmlFor="">Email: </label>
             <input
               type="email"
-              placeholder="email"
+              placeholder="your@email.address"
               name="email"
               id="email"
               onChange={onChangeValue}
