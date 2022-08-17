@@ -11,6 +11,13 @@ const data = [
 
   //"https://img.icons8.com/ios-filled/50/000000/laptop-coding.png"
   //"https://img.icons8.com/ios/40/000000/open-book.png"
+
+  {
+    id: 6,
+    title: "Programming Platform",
+    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
+    descriotion: "LeetCode: 150+ Problems",
+  },
   {
     id: 2,
     image:
@@ -37,11 +44,6 @@ const data = [
       "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-operating-system-computer-science-flaticons-lineal-color-flat-icons.png",
     descriotion: "Windows, Linux",
   },
-  {
-    id: 6,
-    title: "Languages",
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    descriotion: "Bangla, English",
-  },
+  ,
 ];
 export default data;

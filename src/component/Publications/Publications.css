@@ -112,6 +112,73 @@
 
     .research .research_box .heading img {
         margin-top: 0;
+        margin-left: 40%;
+        height: 100px;
+        width: 110px;
+    }
+
+    .research .research_box .content {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .research .content .title_content .title {
+        text-align: justify;
+    }
+
+    .research .content .title_content .title h2 {
+        font-size: 17px;
+    }
+
+
+    .research .content .title_content .title h4 {
+        font-size: 15px;
+    }
+
+    .research .box {
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+
+
+
+}
+
+@media (max-width:400px) {
+    .research {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .research .research_box {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 5%;
+        margin: 0;
+    }
+
+    .research .research_box .heading {
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+
+    }
+
+    .research .heading h1 {
+        text-align: center;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        letter-spacing: 2px;
+        font-size: 35px;
+    }
+
+
+    .research .research_box .heading img {
+        margin-top: 0;
         margin-left: 27%;
         height: 100px;
         width: 110px;
@@ -128,12 +195,12 @@
     }
 
     .research .content .title_content .title h2 {
-        font-size: 13px;
+        font-size: 18px;
     }
 
 
     .research .content .title_content .title h4 {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .research .box {

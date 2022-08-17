@@ -46,11 +46,110 @@
 @media (max-width:768px) {
     .resume {
         height: fit-content;
+
     }
 
     .resume .content-section {
         height: fit-content;
         margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 0px;
+
+    }
+
+    .resume .heading h1 {
+        font-size: 35px;
+        margin-top: 0%;
+        margin-right: 0px;
+    }
+
+    .resume .heading img {
+        text-align: center;
+        margin-top: 2%;
+        margin-left: 42%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .resume .content {
+        width: 100%;
+        margin: auto;
+        margin-left: 0px;
+    }
+
+    .resume .resume_div {
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume .resume_div.content {
+        margin: 0;
+        width: 100%;
+        margin-left: 50px;
+        background-color: red;
+    }
+
+    .resume .resume_div .content .box {
+        padding: 3px;
+    }
+
+    .content .box_shadow .title_content {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .content .box_shadow .title_content .title {
+        text-align: center;
+    }
+
+    .content .box_shadow .title_content .title h2 {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        font-size: 20px;
+
+
+    }
+
+    .content .box_shadow .title_content .title span {
+        font-size: 20px;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 25px;
+
+    }
+
+    .content .box_shadow .title_content .title {
+        margin-bottom: 5%;
+    }
+
+    .content .box_shadow .title_content .gpa {
+        font-size: 12px;
+        margin-bottom: 4%;
+    }
+
+    .content {
+        margin-left: 6%;
+        margin-right: 0;
+
+    }
+}
+
+@media (max-width:400px) {
+    .resume {
+        height: fit-content;
+    }
+
+    .resume .content-section {
+        height: fit-content;
+        margin-top: 5px;
+        margin-bottom: 5px;
         padding: 0px;
 
     }
@@ -99,12 +198,12 @@
         width: 100%;
         margin-right: 0px;
         margin-bottom: 5px;
-        font-size: 15px;
+        font-size: 18px;
 
     }
 
     .content .box_shadow .title_content .title span {
-        font-size: 13px;
+        font-size: 15px;
         width: 100%;
         margin-right: 0px;
         margin-bottom: 25px;

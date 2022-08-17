@@ -1,24 +1,33 @@
+.hero #background_video {
+    object-fit: initial;
+    height: 100%;
+    width: 95%;
+    padding: none;
+    position: absolute;
+    z-index: -1;
+    /* -o-filter: blur(0px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px); */
+}
+
 .hero {
     position: relative;
     margin-top: 4%;
-    margin-left: 1.5%;
-
-
+    margin-left: 0;
 }
 
-.hero_container {
-    background-color: white;
 
-}
+.hero_container {}
 
 .hero h3 {
-    font-weight: 150;
-    letter-spacing: 3px;
-    margin-top: 15%;
+    font-weight: 400;
+    font-size: calc(20*0.0625rem);
+    letter-spacing: calc(3*0.0625rem);
+    margin-top: 5rem;
 }
 
 .hero h1 {
-    font-size: 60px;
+    font-size: calc(50*0.0625rem);
     font-weight: bold;
 }
 
@@ -27,7 +36,7 @@
 }
 
 .hero h2 {
-    font-size: 40px;
+    font-size: calc(40*0.0625rem);
     font-weight: bold;
     color: #ff014f;
 }
@@ -42,58 +51,60 @@
 }
 
 .hero_btn h4 {
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #0a0a0a;
-    font-size: 15px;
-    margin: 30px 0;
-
+    font-weight: 400;
+    letter-spacing: calc(2*0.0625rem);
+    color: black;
+    font-size: calc(25*0.0625rem);
+    margin: calc(30*0.0625rem) 0;
 }
 
 .hero_btn button {
-    margin-right: 15px;
+    margin-right: calc(15*0.0625rem);
 
 }
 
 
 .hero .left {
-    margin-left: 10%;
+    margin-left: 10rem
 }
 
 .hero .right {
-    width: 5%;
+    width: 7rem;
     position: relative;
 }
 
 
-
+/* 
 .hero .right_img {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-    border-radius: 10px;
-    height: fit-content;
-    width: 330px;
-    margin-top: 20%;
-    margin-left: 60%;
-    margin-bottom: 0%;
+    box-shadow: 0.5rem 0.5rem 1rem #cbcbcb, -0.5rem -0.5rem 1rem #ffffff;
+    border-radius: calc(10 *0.0625rem);
+    height: 92%;
+    width: calc(340 *0.0625rem);
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 0rem;
 
 }
-
+ */
 
 
 .right .right_img img {
-
-    margin-left: 15%;
-    width: 70%;
-    height: 90%;
+    margin-left: 3rem;
+    width: calc(289 *0.0625rem);
+    /* calc(290 *0.0625rem); */
+    /* 70%; */
+    height: 0%;
 }
 
 p {
-    letter-spacing: 2px;
+
+    letter-spacing: calc(2*0.0625rem);
+    font-size: calc(20*0.0625rem);
     margin-top: 5%;
     color: black;
     font-weight: 400;
-    font-size: large;
+
 
 }
 
@@ -102,7 +113,51 @@ p {
     animation: blink 1s linear infinite forwards;
 }
 
-@media (max-width:768px) {
+@media (max-width:1300px) {
+
+
+    .hero .hero_container .right_img {
+        margin: 0;
+        margin-left: 5rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media (max-width:1150px) {
+
+    .hero .hero_container .right_img {
+        margin: 0;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    .hero .left {
+        margin-left: 3rem
+    }
+
+    .hero .right_img {
+        background: linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 1rem 1rem 2rem #cbcbcb, -1rem -1rem 2rem #ffffff;
+        border-radius: calc(10 *0.0625rem);
+        height: fit-content;
+        width: calc(330 *0.0625rem);
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 0rem;
+
+    }
+
+
+}
+
+
+@media (max-width:800px) {
+
+
     .hero {
         margin: 2%;
         margin-top: 8%;
@@ -111,18 +166,18 @@ p {
     }
 
     .hero h1 {
-        font-size: 25px;
+        font-size: calc(40 *0.0625rem);
     }
 
 
     .hero h2 {
-        font-size: 18px;
+        font-size: calc(30*0.0625rem);
         font-weight: bold;
         color: #ff014f;
     }
 
     .hero h3 {
-        font-size: 15px;
+        font-size: calc(20 *0.0625rem);
     }
 
     .hero_container {
@@ -136,16 +191,16 @@ p {
     }
 
     .hero_btn .col_1 h4 {
-        margin-left: -10px;
+        margin-left: calc(-10 *0.0625rem);
     }
 
     .hero_btn .col_1 {
-        margin-left: 10px;
+        margin-left: calc(15 *0.0625rem);
     }
 
     .hero_btn button {
 
-        margin-right: 15px;
+        margin-right: calc(15 *0.0625rem);
         margin-bottom: 5%;
     }
 
@@ -163,7 +218,7 @@ p {
     .hero .right {
         width: 70%;
         margin-left: 4%;
-        margin-bottom: 5px;
+        margin-bottom: calc(5*0.0625rem);
 
     }
 
@@ -186,7 +241,109 @@ p {
 
     .right .right_img img {
 
-        margin-bottom: 15px;
+        margin-bottom: calc(15 *0.0625rem);
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (max-width:400px) {
+
+    .hero #background_video {
+        object-fit: initial;
+        height: 100%;
+        width: 95%;
+        padding: none;
+        position: absolute;
+        z-index: -1;
+        /* -o-filter: blur(0px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px); */
+    }
+
+
+    .hero {
+        margin: 2%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+
+    }
+
+    .hero h1 {
+        font-size: calc(28 *0.0625rem);
+    }
+
+
+    .hero h2 {
+        font-size: calc(22 *0.0625rem);
+        font-weight: bold;
+        color: #ff014f;
+    }
+
+    .hero h3 {
+        font-size: calc(18 *0.0625rem);
+    }
+
+    .hero_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero .hero_container .left {
+        margin-left: 8%;
+        margin-bottom: 5%;
+    }
+
+    .hero_btn .col_1 h4 {
+        margin-left: calc(-5 *0.0625rem);
+    }
+
+    .hero_btn .col_1 {
+        margin-left: calc(7 *0.0625rem);
+    }
+
+    .hero_btn button {
+
+        margin-right: calc(15 *0.0625rem);
+        margin-bottom: 5%;
+    }
+
+
+    .hero .hero_container .right_img {
+        margin: 0;
+        margin-left: 12%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-top: 0%;
+    }
+
+    .hero .right {
+        width: 70%;
+        margin-left: 4%;
+        margin-bottom: calc(5*0.0625rem);
+
+    }
+
+    .hero .right_img {
+        width: 100%;
+    }
+
+    .right .right_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .right.top img {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    .right .right_img img {
+
+        margin-bottom: calc(15 *0.0625rem);
         width: 60%;
         height: 60%;
     }

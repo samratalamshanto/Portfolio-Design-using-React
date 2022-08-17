@@ -1,3 +1,19 @@
+.toast-message {
+    background: white;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    border: 1.5px solid #000000 !important;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
 .email_box {
     height: 540px;
     margin: 4%;
@@ -82,6 +98,40 @@ label {
 }
 
 @media (max-width:768px) {
+    .email_box {
+        height: fit-content;
+        width: 100%;
+        margin-top: 5%
+    }
+
+    .email_box_heading img {
+        margin-right: 0px;
+        margin-left: 10%;
+    }
+
+    .emailbox h1 {
+        font-size: 25px;
+        font-weight: 900;
+        color: #ff014f;
+        letter-spacing: 1px;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        justify-self: center;
+    }
+
+
+
+    .mail_form {
+        width: 90%;
+        margin: 5%;
+        margin-top: -5%;
+    }
+
+
+}
+
+@media (max-width:400px) {
     .email_box {
         height: fit-content;
         width: 100%;

@@ -41,7 +41,7 @@ const Footer = () => {
                 <h2>For More Details</h2>
                 <h2>Contact with me:</h2>
                 <br />
-                <button className="btn_shadow_footer">
+                <button className="btn_footer btn_shadow_footer">
                   <a
                     href="https://www.facebook.com/profile.php?id=100003190767005"
                     target={"_blank"}

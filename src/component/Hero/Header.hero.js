@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import "./Header.hero.css";
 import "../../App.css";
@@ -15,6 +15,8 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
+import backgroundVideo from "../../pic/video/white bg.mp4"; ///white bg.mp4
+
 const facebook = <FontAwesomeIcon icon={faFacebook} />;
 const github = <FontAwesomeIcon icon={faGithub} />;
 const linkedin = <FontAwesomeIcon icon={faLinkedinIn} />;
@@ -30,10 +32,27 @@ const HeaderHero = () => {
     delaySpeed: 1000,
   });
 
+  const videoRef = useRef();
+  const setPlayBack = () => {
+    videoRef.current.playbackRate = 0.7;
+  };
+
   return (
     <>
       <section className="hero" id="home">
         <div className="container f_flex top hero_container">
+          <video
+            autoPlay
+            playbackRate={2}
+            preload
+            loop
+            muted
+            ref={videoRef}
+            onCanPlay={() => setPlayBack()}
+            id="background_video"
+          >
+            <source src={backgroundVideo} type="video/mp4" />
+          </video>
           <div className="left top">
             <h3>Welcome to my world...</h3>
             <h1>
@@ -46,7 +65,7 @@ const HeaderHero = () => {
                 <span className="cursor">|</span>
               </span>
             </h2>
-            <p>Visit My Portfolio And Send Me Your Feedback..</p>
+            <p>Visit My Portfolio And Send Me Your Feedback.</p>
             <div className="hero_btn d_flex">
               <div className="col_1">
                 <h4>Find With Me:</h4>

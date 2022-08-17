@@ -8,6 +8,10 @@ import {
   faEnvelope,
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const msgSend = <FontAwesomeIcon icon={faEnvelope} />;
 
 const MailForm = () => {
@@ -25,12 +29,21 @@ const MailForm = () => {
     });
   };
 
+  const showToastMessage = () => {
+    toast.success(
+      `Hello, ${name}. Your msg is sent. Thank you. Have a good day.`,
+      {
+        position: toast.POSITION.TOP_RIGHT,
+        className: "toast-message",
+        autoClose: 4000,
+      }
+    );
+  };
+
   const onHandleForm = (e) => {
     e.preventDefault();
-    console.log("submitted");
-    alert(
-      `Hello ${name}!! Your Msg is Sent!! Thank You. I will contact with you shortly.`
-    );
+
+    showToastMessage();
 
     //axios
     let axiosConfig = {
@@ -60,6 +73,7 @@ const MailForm = () => {
   return (
     <>
       <div className="mail_form">
+        <ToastContainer />
         <form action="" onSubmit={onHandleForm}>
           <div className="name_div">
             <label htmlFor="">Name: </label>
