@@ -22,6 +22,7 @@ const Feature = () => {
               return (
                 <Card
                   key={index}
+                  value={val.id}
                   title={val.title}
                   description={val.descriotion}
                   img={val.image}

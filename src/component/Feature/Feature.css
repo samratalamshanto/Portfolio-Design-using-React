@@ -97,11 +97,7 @@
 
 }
 
-.content_feature_box {
-    background-color: aqua;
-    margin: 20px;
 
-}
 
 .content_feature .content_feature_box:hover {
     background-color: #ff014f;
@@ -110,7 +106,7 @@
 .content_feature_box img {
     height: calc(80 *0.0625rem);
     width: calc(80 *0.0625rem);
-    margin-left: 6rem;
+    margin-left: 5rem;
 }
 
 .content_feature_box img:hover {
@@ -119,7 +115,15 @@
 
 }
 
+.content_feature_box h2 {
+    width: 100%;
+    text-align: center;
+}
 
+.content_feature_box p {
+    width: 100%;
+    text-align: center;
+}
 
 @media (max-width:768px) {
 

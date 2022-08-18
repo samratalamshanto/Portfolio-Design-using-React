@@ -15,8 +15,9 @@ const data = [
   {
     id: 6,
     title: "Programming Platform",
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    descriotion: "LeetCode: 150+ Problems",
+    image:
+      "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-typing-mobile-app-development-flaticons-lineal-color-flat-icons.png",
+    descriotion: "LeetCode: 160+ Problems",
   },
   {
     id: 2,
@@ -29,12 +30,12 @@ const data = [
     id: 3,
     image: "https://img.icons8.com/fluency/48/000000/data-configuration.png",
     title: "Database",
-    descriotion: "SQL",
+    descriotion: "SQL, MongoDB",
   },
   {
     id: 4,
     title: "Framework ",
-    image: "https://img.icons8.com/color/48/000000/react-native.png ",
+    image: "https://img.icons8.com/color/48/000000/react-native.png",
     descriotion: "React, Express.js",
   },
   {

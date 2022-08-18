@@ -1,7 +1,8 @@
 import React from "react";
 
 const Card = (props) => {
-  const { title, description, img } = props;
+  const { value, title, description, img } = props;
+
   return (
     <>
       <div className=" btn_shadow content_feature_box">
